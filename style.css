@@ -15,8 +15,26 @@ body {
     color: lightcyan;
 }
 
+.search {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
 .search_input {
     margin-top: 20px;
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+}
+
+.search_logo {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
 }
 
 .container {
