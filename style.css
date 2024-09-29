@@ -4,6 +4,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 5px solid azure;
 }
 .logo {
     display: flex;
@@ -54,6 +55,7 @@ body {
     display: flex;
     justify-content: space-between;
     justify-items: baseline;
+    border-top: 5px solid azure;
 }
 
 .github {
